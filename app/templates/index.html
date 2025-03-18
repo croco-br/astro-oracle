@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Oráculo Astrológico</h1>
+    <button onclick="rollDice()">Consultar</button>
+    <div class="spinner" id="spinner"></div>
+    <div class="result-container">
+        <div class="result" id="dice1">?</div>
+        <div class="result" id="dice2">?</div>
+        <div class="result" id="dice3">?</div>
+    </div>
+{% endblock %}
