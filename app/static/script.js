@@ -64,8 +64,8 @@ function rollDice() {
 
 function createDiceHTML(item) {
     return `
-        <div class="dice">
-       ${item.symbol}
+        <div class="dice" title="${item.name}">
+            ${item.symbol}
         </div>
     `;
 }
