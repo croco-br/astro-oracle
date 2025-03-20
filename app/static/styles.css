@@ -59,3 +59,10 @@ button:hover {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+.small-text {
+  font-size: 0.8em; /* Reduz o tamanho do texto */
+  max-width: 80px; /* Define uma largura máxima */
+  text-align: center; /* Centraliza o texto */
+  word-wrap: break-word; /* Quebra o texto se necessário */
+}
